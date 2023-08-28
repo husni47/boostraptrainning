@@ -1,0 +1,62 @@
+.btn-primary{
+    background: orange;
+    border: 0;
+    /*padding dengan css*/
+    padding: 15px 40px 15px 40px;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.btn-primary:hover{
+    background: rgb(219, 133, 4);
+    border: 0;
+}
+
+
+.btn-secondary:hover{
+    background: none;
+    border: 1px solid rgb(159, 177, 197);
+    color: #173A56;
+}
+
+.btn-secondary{
+    background: none;
+    border: 1px solid #BCD0E5;
+    /*padding dengan css*/
+    padding: 15px 40px 15px 40px;
+    font-size: 16px;
+    font-weight: bold;
+    color: #173A56;
+}
+
+.navbar-nav nav-link{
+    color: #173A56;;
+}
+
+
+
+
+body{
+    font-family: 'Poppins', sans-serif;
+    
+}
+
+/*.herobwa .container .row .col {
+    font-weight: var(--fwbold);
+}*/
+
+.herobwa h1 {
+    font-weight: 700;
+}
+
+.herobwa {
+    font-weight: 400;
+}
+
+@media only screen and (max-width: 768px) {
+
+.btn-primary, .btn-secondary{
+    margin-top: 10px;
+    
+}
+}
